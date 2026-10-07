@@ -1,0 +1,96 @@
+.task2 {
+  min-height: 100vh;
+  background-color: #f4f6f8;
+  color: #222;
+}
+
+/* Header */
+
+.task2-header {
+  padding: 40px 20px;
+  text-align: center;
+
+  background-color: #20232a;
+  color: white;
+}
+
+.task2-header h1 {
+  margin: 0 0 10px;
+  font-size: 32px;
+}
+
+.task2-header p {
+  margin: 0;
+}
+
+/* Job cards container */
+
+.job-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+/* Job card */
+
+.job-card {
+  padding: 25px;
+
+  background-color: white;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h2 {
+  margin: 0 0 20px;
+  color: #333;
+}
+
+.job-card p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+/* Status */
+
+.job-status-open {
+  color: green;
+  font-weight: bold;
+}
+
+.job-status-closed {
+  color: red;
+  font-weight: bold;
+}
+
+/* Button */
+
+.job-card button {
+  margin-top: 15px;
+  padding: 10px 18px;
+
+  border: none;
+  border-radius: 6px;
+
+  background-color: #646cff;
+  color: white;
+
+  cursor: pointer;
+}
+
+.job-card button:hover {
+  background-color: #535bf2;
+}
+
+/* Responsive */
+
+@media (max-width: 700px) {
+  .job-container {
+    grid-template-columns: 1fr;
+  }
+}

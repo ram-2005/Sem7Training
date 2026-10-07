@@ -1,0 +1,140 @@
+.task3 {
+  min-height: 100vh;
+  background: #f4f6f8;
+  color: #222;
+}
+
+/* Header */
+
+.task3-header {
+  padding: 45px 20px;
+
+  text-align: center;
+
+  background: #20232a;
+  color: white;
+}
+
+.task3-label {
+  margin: 0 0 10px;
+
+  color: #61dafb;
+
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.task3-header h1 {
+  margin: 0 0 12px;
+
+  font-size: 34px;
+}
+
+.task3-header p:last-child {
+  margin: 0;
+
+  color: #b8bcc5;
+}
+
+/* Main */
+
+.task3-main {
+  max-width: 700px;
+
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+/* Search card */
+
+.search-card {
+  padding: 35px;
+
+  background: white;
+  border-radius: 14px;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.search-card label {
+  display: block;
+
+  margin-bottom: 10px;
+
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.search-card input {
+  width: 100%;
+
+  padding: 14px 16px;
+
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+
+  outline: none;
+
+  font-size: 16px;
+
+  transition: border-color 0.2s;
+}
+
+.search-card input:focus {
+  border-color: #646cff;
+}
+
+/* Search result */
+
+.search-result {
+  margin-top: 25px;
+  padding: 20px;
+
+  border-radius: 10px;
+
+  background: #f4f6f8;
+}
+
+.search-result p {
+  margin: 0 0 8px;
+
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.search-result h2 {
+  margin: 0;
+
+  word-break: break-word;
+}
+
+/* State information */
+
+.state-info {
+  margin-top: 25px;
+  padding: 25px;
+
+  background: #20232a;
+  color: white;
+
+  border-radius: 14px;
+}
+
+.state-info h2 {
+  margin: 0 0 15px;
+  font-size: 18px;
+}
+
+.state-info code {
+  display: block;
+
+  padding: 12px;
+
+  border-radius: 6px;
+
+  background: #111318;
+  color: #61dafb;
+
+  word-break: break-word;
+}
